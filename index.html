@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigo Roa | Fullstack para Startups | Impulsa tu negocio con soluciones web innovadoras</title>
     <link rel="stylesheet" href="./static/css/styles.css">
+    <link rel="stylesheet" href="./static/css/slider.css">
     <script src="https://kit.fontawesome.com/7849b675c7.js" crossorigin="anonymous"></script>
 
 </head>
@@ -20,9 +21,9 @@
             <!--  Aqui va el menu de navegacion: Inicio||Sobre mi|| Habilidades ||Capacitacion|| Contacto-->
             <div class="container_nav">
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-house"></i>Inicio</a></li>
-                    <li><a href="#"><i class="fa-solid fa-address-card"></i>Sobre mi</a></li>
-                    <li><a href="#"><i class="fa-solid fa-brain"></i>Habilidades</a></li>
+                    <li><a href="#home"><i class="fa-solid fa-house"></i>Inicio</a></li>
+                    <li><a href="#am"><i class="fa-solid fa-address-card"></i>Sobre mi</a></li>
+                    <li><a href="#habilidades"><i class="fa-solid fa-brain"></i>Habilidades</a></li>
                     <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>Capacitacion</a></li>
                     <li><a href="#"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
                 </ul>
@@ -30,10 +31,9 @@
         </nav>
     </header>
     <main>
-        <section class="banner">
+        <section id="home" class="banner">
             <div class="banner_content">
                 <h1><span>Rodrigo Roa</span> - Full Stack Developer & Web Designer</h1>
-                <h2>Creador de soluciones web innovadoras y personalizadas - Te ayudo a convertir tus ideas en realidad online</h2>
                 <br><br>
                 <!-- enlace boton de inicio -->
                 <a href="./static/documents/Rodrigo Roa CV.pdf" download="Rodrigo_Roa_CV" class="banner_button">Descargar CV</a>
@@ -47,11 +47,110 @@
         </section>
         <section>
             <div class="container_am">
+                <h2 id="am">Sobre mi</h2>
                 <div class="foto">
                 <img src="./static/img/fotomia.png" alt="Rodrigo Roa Full Stack Developer">
                 </div>
                 <div class="am">
+                    <p>Hola, soy <span id="name">Rodrigo Roa</span>, un apasionado <span class="profesiones">fullstack developer</span>  enfocado en el <span class="profesiones">front-end</span> y las <span class="profesiones">bases de datos</span>.
 
+                        Me encanta estar al día con las últimas tecnologías, tanto en hardware como en software, por lo que siempre estoy aprendiendo y experimentando con nuevas herramientas y frameworks.
+                        
+                        Además de la programación, disfruto de <span class="hobby">la panadería</span>, <span class="hobby">el voleibol </span>y <span class="hobby">el fútbol</span>. Me considero una persona "responsable", "comprometida" y con capacidad de "trabajar en equipo".
+                        
+                        En la escuela técnica me destacaba por mi entrega en los proyectos y por mi constante búsqueda de conocimiento, siempre yendo más allá de lo que se esperaba de mí.
+                        
+                        Estoy seguro de que puedo aportar valor a tu equipo con mis habilidades y mi entusiasmo por el trabajo. No dudes en contactarme si deseas saber más sobre mí o sobre mi experiencia.
+                        <span id="frase">"Mis habilidades son como un buen vino: mejoran con el tiempo."</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="habilidades">
+            <h2 id="habilidades">Habilidades</h2>
+            <h3>Front End</h3>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <i class="fa-brands fa-html5"></i>
+                    </div> 
+                    <div class="slide">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="slide">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="slide proceso fv">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="slide proceso fv">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="slide proceso">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    <!-- Doble -->
+                    <div class="slide">
+                        <i class="fa-brands fa-html5"></i>
+                    </div> 
+                    <div class="slide">
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </div>
+                    <div class="slide">
+                        <i class="fa-brands fa-js"></i>
+                    </div>
+                    <div class="slide proceso fv">
+                        <i class="fa-brands fa-sass"></i>
+                    </div>
+                    <div class="slide proceso fv ">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="slide proceso">
+                        <i class="fa-brands fa-react"></i>
+                    </div>
+                    
+                </div>
+            </div>
+            <h3>Back End</h3>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide proceso fv">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="slide proceso">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <div class="slide">
+                        <img src="./static/img/cplusplus-svgrepo-com.svg" alt="Cplusplus">
+                    </div>
+                    <div class="slide">
+                        <img src="./static/img/csharp-svgrepo-com.svg" alt="csharp">
+                    </div>
+                    <!-- Doble -->
+                    <div class="slide proceso fv">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="slide proceso">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <div class="slide">
+                        <img src="./static/img/cplusplus-svgrepo-com.svg" alt="Cplusplus">
+                    </div>
+                    <div class="slide">
+                        <img src="./static/img/csharp-svgrepo-com.svg" alt="csharp">
+                    </div>
+                    <div class="slide proceso fv">
+                        <i class="fa-brands fa-php"></i>
+                    </div>
+                    <div class="slide proceso">
+                        <i class="fa-brands fa-node-js"></i>
+                    </div>
+                    <div class="slide">
+                        <img src="./static/img/cplusplus-svgrepo-com.svg" alt="Cplusplus">
+                    </div>
+                    <div class="slide">
+                        <img src="./static/img/csharp-svgrepo-com.svg" alt="csharp">
+                    </div>
                 </div>
             </div>
         </section>
