@@ -6,6 +6,7 @@
     <title>Rodrigo Roa | Fullstack para Startups | Impulsa tu negocio con soluciones web innovadoras</title>
     <link rel="stylesheet" href="./static/css/styles.css">
     <link rel="stylesheet" href="./static/css/slider.css">
+    <link rel="stylesheet" href="./static/css/contacto.css">
     <script src="https://kit.fontawesome.com/7849b675c7.js" crossorigin="anonymous"></script>
 
 </head>
@@ -24,8 +25,8 @@
                     <li><a href="#home"><i class="fa-solid fa-house"></i>Inicio</a></li>
                     <li><a href="#am"><i class="fa-solid fa-address-card"></i>Sobre mi</a></li>
                     <li><a href="#habilidades"><i class="fa-solid fa-brain"></i>Habilidades</a></li>
-                    <li><a href="#"><i class="fa-solid fa-graduation-cap"></i>Capacitacion</a></li>
-                    <li><a href="#"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
+                    <li><a href="#capacitacion"><i class="fa-solid fa-graduation-cap"></i>Capacitacion</a></li>
+                    <li><a href="#contacto"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
                 </ul>
             </div>
         </nav>
@@ -45,8 +46,8 @@
                 Tu navegador no soporta la etiqueta de video.
             </video>
         </section>
-        <section id="am">
-            <div class="container">
+        <section id="am" class="container  aboutme">
+            <div>
                 <h2>Sobre mi</h2>
                 <div class="foto">
                 <img src="./static/img/fotomia.png" alt="Rodrigo Roa Full Stack Developer">
@@ -295,9 +296,56 @@
                           </ul>
                     </div>
                 </li>
+                <li class="capacitacionitem">
+                    <div class="circulodecorativo">
+                        <time datetime="2024-2024">2023-2024(En curso)</time>
+                        <h3>Fullstack con node-js - Codo a codo</h3>
+                        <p>
+                            Estoy cursando el curso online "Desarrollo web con Node.js" del programa codo a codo hasta mediados de julio. Mi objetivo es mejorar mis habilidades en esta tecnología para poder desarrollar aplicaciones web más robustas y escalables.
+                          </p>
+                    </div>
+                </li>
             </ol>
         </section>
+        <section id="contacto" class="contacto">
+            <div class="containerc">
+                <div class="box-info">
+                    <h1>Contáctate conmigo</h1>
+                    <div class="data">
+                        <p><i class="fa-solid fa-phone"></i>+54 011 3800-1284</p>
+                        <p><i class="fa solid fa-envelope"></i>rodrigobenjamin2005@gmail.com</p>
+                        <p><i class="fa-brands fa-discord"></i>roarodrigo066</p>
+                    </div>
+                    <div class="links">
+                        <a href="https://github.com/RodrigoRoa06"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/roa_rodrigo_/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="www.linkedin.com/in/rodrigo-benjamin-roa"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <form>
+                    <div class="input-box">
+                        <input type="text" required placeholder="Nombre y apellido">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="email" required placeholder="Correo electronico">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" required placeholder="Asunto">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                     </div>
+                    <div class="input-box">
+                        <textarea cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                    </div>
+                    <button type="submit">Enviar  Mensaje</button>
+                </form>
+            </div>
+        </section>
     </main>
+    <footer>
+        <p>2024 Rodrigo Roa - Todos los derechos reservados</p>
+    </footer>
     
 </body>
 </html>
