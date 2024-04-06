@@ -1,0 +1,28 @@
+#home{
+    width: 100vw;
+}
+.container .banner{
+    height: 100vh; /* Ajustamos la altura al alto del viewport */
+    position: relative;
+    /* ocultamos la barra horizontal de desplazamiento o scrollbar horizontal */
+   
+}
+.banner_content{
+     /* propiedades de la fuente */
+     text-align: center;
+     color: white;
+     /* posicion del contenedor */
+     position: absolute;
+     top: 50%;
+     left: 32%;
+     z-index: 1;
+     font-size: 1rem;  
+     
+}
+.video_background{
+    position:absolute;
+    height:100vh;
+    width: 100vw;
+    object-fit: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+}
