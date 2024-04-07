@@ -7,4 +7,6 @@ html, body{
     margin: 0;
     background-color: #1b1e29;
     overflow-x: hidden; 
+    display: block;
+    rotate: 3rad;
 }
