@@ -1,4 +1,5 @@
 #home{
+    height: 100vh;
     width: 100vw;
 }
 .container .banner{
@@ -13,7 +14,7 @@
      color: white;
      /* posicion del contenedor */
      position: absolute;
-     top: 50%;
+     top: 40%;
      left: 32%;
      z-index: 1;
      font-size: 1rem;  
