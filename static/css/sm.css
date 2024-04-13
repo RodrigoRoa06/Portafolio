@@ -14,8 +14,8 @@
 }
 .texto{
     font-size: 3vh;
-    line-height:7vh;
-    font-weight:10px;
+    font-weight:11px;
+    height: 15vw;
 }
 .texto #name{
     font-size: 3.4vh;
@@ -26,7 +26,7 @@
 }
 .foto img{
     border-radius: 50%;
-    width: 15vw;
+    width: 20vw;
     object-fit: cover;
 
 }

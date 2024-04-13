@@ -6,8 +6,8 @@
 }
 .slider .slide-track{
     display: flex;
-    animation: scroll 30s linear infinite;
-    --webkit-animation: scroll 30s linear infinite;
+    animation: scroll 10s linear infinite;
+    --webkit-animation: scroll 10s linear infinite;
     width: calc(150px *12);
 
 }
@@ -35,7 +35,7 @@
         --webkit-transform:trasnlateX(0);
         transform:translateX(0)
     }
-    0%{
+    100%{
         --webkit-transform:trasnlateX(calc(-150px * 6) );
         transform:translateX(calc(-150px * 6) )
     }

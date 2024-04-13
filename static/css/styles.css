@@ -3,6 +3,11 @@
 @import url(nav.css);
 @import url(hero.css);
 @import url(sm.css);
+@import url(skills.css);
+:root{
+  --color-primario:#1b1e29;
+  --color-secundario:#1b1e29;
+}
 html, body{
     padding: 0;
     margin: 0;
@@ -11,6 +16,14 @@ html, body{
     display: block;
     overflow-y:scroll;
     width: 100vw;
+}
+h2{
+  text-align: center;
+  font-size: 10vh;
+}
+h3{
+  text-align: center;
+  font-size: 6vh;
 }
 /* html{  
     
