@@ -4,26 +4,54 @@
 @import url(hero.css);
 @import url(sm.css);
 @import url(skills.css);
+@import url(capacitacion.css);
 :root{
-  --color-primario:#1b1e29;
-  --color-secundario:#1b1e29;
+  --color-primario:#1a1f36;
+  --color-secundario:#5e5e5e;
+  --color-terciario:#222222;
+  --color-sombra-1:#242424a8;
+  --color-fuente-1:white;
+  --color-fuente-2:rgb(54, 169, 207);
+  --fuente-1: 'Roboto', sans-serif;
+  --fuente-2:'Lucida Sans', 'Lucida Sans Regular';
+  --tamaño-fuente-1:50px;
+  --tamaño-fuente-2:30px;
+  --tamaño-fuente-3:20px;
+  --tamaño-fuente-4:15px;
+  --tamaño-slide:100px;
+
 }
 html, body{
     padding: 0;
     margin: 0;
-    background-color: #1b1e29;
+    background-color:var(--color-primario);
     overflow-x: hidden; 
     display: block;
     overflow-y:scroll;
     width: 100vw;
 }
+h1{
+  text-align: center;
+  font-family: var(--fuente-1);
+  font-size: var(--tamaño-fuente-2);
+}
 h2{
   text-align: center;
-  font-size: 10vh;
+  font-size:var(--tamaño-fuente-1);
+  font-family: var(--fuente-1);
 }
 h3{
   text-align: center;
-  font-size: 6vh;
+  font-size: var(--tamaño-fuente-2);
+  font-family: var(--fuente-1);
+}
+p{
+  font-family: var(--fuente-1);
+  font-size: var(--tamaño-fuente-3);
+  color: var(--color-secundario);
+}
+a{
+  font-family: var(--fuente-1);
 }
 /* html{  
     
@@ -41,3 +69,10 @@ h3{
     }
   }
    */
+   main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+   }
+  

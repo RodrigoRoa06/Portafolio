@@ -1,0 +1,98 @@
+#capacitacion{
+    margin:50px 0;
+    width: 80vw;
+}
+.capacitacionlist{
+border-inline-start: 1px solid white;
+position: relative;
+display: flex;
+flex-direction: column;
+gap: 4vh;
+}
+.capacitacionitem{
+    padding-left: 20px;
+    padding-bottom: 40px;
+    background: var(--color-sombra-1);
+    border-radius: 6px;
+    padding: 30px;
+}
+.capacitacionitem time{
+    color: rgba(255, 255, 255, 0.767);
+}
+
+.capacitacionitem h3{
+    color: rgb(68, 81, 199);
+}
+
+.capacitacionitem p{
+    color: rgb(226, 226, 226);
+    margin:0 0 35px 0;
+}
+
+.capacitacionlist li{
+  list-style: none;
+}
+.circulodecorativo{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+
+    left: -5;
+    margin-top: 7px;
+}
+.capacitacionSection {
+    margin: 50px auto;
+  }
+  
+  .capacitacionSection h2 {
+    margin-bottom: 30px;
+  }
+  
+  .capacitacionlist {
+    border-inline-start: 1px solid white;
+    position: relative;
+  }
+  
+  .capacitacionitem {
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .capacitacionitem time {
+    color: rgba(213, 213, 213, 0.639);
+  }
+  
+  .capacitacionitem h3 {
+    color: rgb(82, 152, 196);
+    text-wrap: pretty;
+    font-size: var(--tamaño-fuente-2);
+  }
+  
+  .capacitacionitem p {
+    color: white;
+    margin: 0 0 15px 0;
+    font-size: var(--tamaño-fuente-3);
+  }
+  .circulodecorativo {
+    height: 10px;
+    width: 10px;
+    background-color: var(--color-secundario);
+    border-radius: 50%;
+    position: absolute;
+  
+    left: -5px;
+    margin-top: 7px;
+  }
+  .listacap{
+  width: 100%;
+  }
+  .listacap ul{
+    color: var(--color-fuente-1);
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }

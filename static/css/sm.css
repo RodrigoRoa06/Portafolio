@@ -28,5 +28,5 @@
     border-radius: 50%;
     width: 20vw;
     object-fit: cover;
-
+    filter: none;
 }
