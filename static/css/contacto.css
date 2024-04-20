@@ -46,12 +46,12 @@
     text-decoration: none;
     width: 40px;
     height: 40px;
-    background: crimson;
+    background: var(--color-secundario);
     text-align: center;
     transition:.1s
 }
 .links > a>i{
-    color: #fff;
+    color: var(--color-fuente-1);
     line-height: 40px;
     font-size: 20px; 
 }
@@ -73,7 +73,7 @@ form{
     color: #fff;
 }
 .input-box>input:focus,.input-box>textarea:focus{
-    border-bottom:3px solid  crimson ;
+    border-bottom:3px solid   ;
 }
 .input-box>input::placeholder,.input-box>textarea::placeholder{
     color: #a3a3a3;
@@ -105,7 +105,7 @@ form{
 
 }
 form > button{
-    background: crimson;
+    background: var(--color-secundario);
     color: #fff;
     border: none;
     outline: none;
