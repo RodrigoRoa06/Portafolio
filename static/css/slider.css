@@ -13,7 +13,7 @@
 
     padding:10px 12px 0 12px;
     border-radius:20px;
-    background: var(--color-sombra-1);
+    background:1 var(--color-sombra-1);
 }
 .slider .slide-track{
     display: flex;

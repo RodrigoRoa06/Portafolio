@@ -47,10 +47,10 @@ nav {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 30px;
+    border-radius: 12px;
     gap: 1vw;
     padding-right: 20px;
-    background:linear-gradient(to bottom ,var(--color-sombra-1) 93%, var(--color-terciario));
+    background-color: var(--color-sombra-1);
 
 }
 
@@ -75,7 +75,8 @@ nav {
 
 .container_nav li a,
 i {
-    color: aliceblue;
+    color: var(--color-fuente-1);
+
 }
 
 header .container {
@@ -84,14 +85,15 @@ header .container {
 
 /* Efectos */
 .container_nav li {
-    color: white;
+    color: var(--color-fuente-2);
     text-decoration: none;
     padding: 0 9px;
+    transition: 0.2s ease ;
+
 
 }
 .container_nav li:hover{
-    transition: 0.2s;
-  transform:scale(1.1,1.1);
+  transform:scale(1.2,1.2);
 
 }
 .container_nav li::before {
@@ -103,7 +105,7 @@ header .container {
     content: '';
     width: 0%;
     height: 2px;
-    background: var(--universal-gradient);
+    background: var(--color-terciario);
     display: block;
     transition: 0.5s;
     padding: -20px;
