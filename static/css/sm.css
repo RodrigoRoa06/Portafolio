@@ -1,28 +1,32 @@
-.aboutme{
+.aboutme {
     height: 100vh;
     width: 100vw;
     text-align: center;
-   
+
 }
-.am{
+
+.am {
     display: flex;
     display: flex;
     flex-direction: row;
-    align-items:flex-start;
+    align-items: flex-start;
     justify-content: center;
     height: 40vh;
-    
-    gap:  5vw;
+
+    gap: 5vw;
 }
-.texto{
+
+.texto {
     font-size: var(--tamaño-fuente-3);
-    font-weight:11px;
+    font-weight: 11px;
     height: 15vw;
 }
-.texto #name{
+
+.texto #name {
     font-weight: bolder;
 }
-.foto img{
+
+.foto img {
     border-radius: 50%;
     width: 20vw;
     object-fit: cover;

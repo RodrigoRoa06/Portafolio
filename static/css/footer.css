@@ -1,4 +1,4 @@
-footer{
+footer {
     height: 6vh;
     width: 100vw;
     display: flex;
@@ -7,7 +7,8 @@ footer{
     background-color: var(--color-sombra-1);
     margin-top: 16vh;
 }
-footer p{
+
+footer p {
     color: var(--color-fuente-1);
     font-size: var(--tamaño-fuente-3);
 }

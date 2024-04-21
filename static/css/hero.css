@@ -1,4 +1,4 @@
-#home{
+#home {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -6,46 +6,51 @@
     justify-content: center;
     padding-top: 0;
 
- 
+
 }
-.container .banner{
-    height: 100vh; /* Ajustamos la altura al alto del viewport */
+
+.container .banner {
+    height: 100vh;
+    /* Ajustamos la altura al alto del viewport */
     position: relative;
     /* ocultamos la barra horizontal de desplazamiento o scrollbar horizontal */
-    
+
 }
-.banner h1{
+
+.banner h1 {
     color: var(--color-fuente-1);
-    font-size: var(--tamaño-fuente-2);  
-    
+    font-size: var(--tamaño-fuente-2);
+
 
 }
 
-.banner_content{
-     /* propiedades de la fuente */
-     color:var(--color-fuente-1) ;
-     /* posicion del contenedor */
-     position: absolute;
-     z-index: 1;
+.banner_content {
+    /* propiedades de la fuente */
+    color: var(--color-fuente-1);
+    /* posicion del contenedor */
+    position: absolute;
+    z-index: 1;
     margin: 3vh;
     padding: 4vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     flex-direction: column;
-     background:var(--color-sombra-1);
-     border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: var(--color-sombra-1);
+    border-radius: 10px;
 }
-.banner_content .btn a{
+
+.banner_content .btn a {
     color: var(--color-fuente-1);
     background: none;
     border: none;
 
 }
-.video_background{
-    position:absolute;
-    height:100vh;
+
+.video_background {
+    position: absolute;
+    height: 100vh;
     width: 100vw;
     object-fit: cover;
-    filter:brightness(0.25);
+    filter: brightness(0.25);
 }
