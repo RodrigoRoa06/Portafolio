@@ -10,22 +10,17 @@
     flex-direction: row;
     align-items:flex-start;
     justify-content: center;
-    margin: 10vw;
     height: 40vh;
     
     gap:  5vw;
 }
 .texto{
-    font-size: 3vh;
+    font-size: var(--tamaño-fuente-3);
     font-weight:11px;
     height: 15vw;
 }
 .texto #name{
-    font-size: 3.4vh;
     font-weight: bolder;
-}
-.aboutme h2{
-    font-size: 6vw;
 }
 .foto img{
     border-radius: 50%;

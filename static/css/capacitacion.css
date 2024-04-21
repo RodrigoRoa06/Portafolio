@@ -3,7 +3,7 @@
     width: 80vw;
 }
 .capacitacionlist{
-border-inline-start: 1px solid white;
+border-inline-start: 1px solid var(--color-primario);
 position: relative;
 display: flex;
 flex-direction: column;
@@ -17,11 +17,11 @@ gap: 4vh;
     padding: 30px;
 }
 .capacitacionitem time{
-    color: rgba(255, 255, 255, 0.767);
+    color:var(--color-fuente-1);
 }
 
 .capacitacionitem h3{
-    color: rgb(68, 81, 199);
+    color: var(--color-fuente-2);
 }
 
 .capacitacionitem p{
@@ -31,6 +31,11 @@ gap: 4vh;
 
 .capacitacionlist li{
   list-style: none;
+}
+.capacitacionlist ul li{
+  color: var(--color-fuente-1);
+  font-family: var(--fuente-1);
+  font-size: var(--tamaño-fuente-4);
 }
 .circulodecorativo{
     height: 10px;
@@ -53,27 +58,6 @@ gap: 4vh;
   .capacitacionlist {
     border-inline-start: 1px solid white;
     position: relative;
-  }
-  
-  .capacitacionitem {
-    padding-left: 20px;
-    padding-bottom: 40px;
-  }
-  
-  .capacitacionitem time {
-    color: rgba(213, 213, 213, 0.639);
-  }
-  
-  .capacitacionitem h3 {
-    color: rgb(82, 152, 196);
-    text-wrap: pretty;
-    font-size: var(--tamaño-fuente-2);
-  }
-  
-  .capacitacionitem p {
-    color: white;
-    margin: 0 0 15px 0;
-    font-size: var(--tamaño-fuente-3);
   }
   .circulodecorativo {
     height: 10px;

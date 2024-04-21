@@ -5,20 +5,22 @@
 @import url(sm.css);
 @import url(skills.css);
 @import url(capacitacion.css);
+@import url(footer.css);
 :root{
   --color-primario:#1a1f36;
-  --color-secundario:#5e5e5e;
+  --color-secundario:#553743;
   --color-terciario:#222222;
   --color-sombra-1:#242424a8;
   --color-fuente-1:white;
-  --color-fuente-2:rgb(54, 169, 207);
+  --color-fuente-2:#316779;
   --fuente-1: 'Roboto', sans-serif;
   --fuente-2:'Lucida Sans', 'Lucida Sans Regular';
   --tamaño-fuente-1:50px;
   --tamaño-fuente-2:30px;
   --tamaño-fuente-3:20px;
   --tamaño-fuente-4:15px;
-  --tamaño-slide:100px;
+  --tamaño-fuente-5:10px;
+  --tamaño-slide:120px;
 
 }
 html, body{
@@ -27,31 +29,37 @@ html, body{
     background-color:var(--color-primario);
     overflow-x: hidden; 
     display: block;
-    overflow-y:scroll;
     width: 100vw;
 }
 h1{
-  text-align: center;
+  text-align: left;
   font-family: var(--fuente-1);
   font-size: var(--tamaño-fuente-2);
+  color: var(--color-fuente-2);
 }
 h2{
-  text-align: center;
+  text-align: left;
   font-size:var(--tamaño-fuente-1);
   font-family: var(--fuente-1);
+  color: var(--color-fuente-2);
+
 }
 h3{
-  text-align: center;
+  text-align: left;
   font-size: var(--tamaño-fuente-2);
   font-family: var(--fuente-1);
+  color: var(--color-fuente-2);
+
 }
 p{
   font-family: var(--fuente-1);
   font-size: var(--tamaño-fuente-3);
-  color: var(--color-secundario);
+  color: var(--color-fuente-1);
 }
 a{
   font-family: var(--fuente-1);
+  text-decoration: none;
+  color: var(--color-fuente-1);
 }
 /* html{  
     
@@ -74,5 +82,71 @@ a{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    width: 100vw;
+   }
+   .container{
+    width: 80vw;
+   }
+   section{
+     width: 100vw;
+     padding-top: 20vh;
    }
   
+/* Boton */
+
+
+
+.btn {
+  font-size: 17px;
+  background: transparent;
+  border: none;
+  padding: 1em 1.5em;
+  color:var(--color-fuente-1);
+  text-transform: uppercase;
+  position: relative;
+  transition: 0.5s ease;
+  cursor: pointer;
+  background-color: var(--color-terciario);
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: var(--color-secundario);
+  transition: 0.5s ease;
+
+}
+
+.btn:hover{
+  color: var(--color-sombra-1);
+  transition-delay: 0.5s;
+  background-color: var(--color-secundario);
+
+}
+
+.btn:hover::before {
+  width: 100%;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 0;
+  width: 100%;
+  background-color: var(--color-secundario);
+  transition: 0.4s ease;
+  z-index: -1;
+  
+}
+
+.btn:hover::after{
+  height: 100%;
+  transition-delay: 0.4s;
+  color: var(--color-fuente-2);
+}
