@@ -18,6 +18,7 @@ gap: 4vh;
 }
 .capacitacionitem time{
     color:var(--color-fuente-1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .capacitacionitem h3{
