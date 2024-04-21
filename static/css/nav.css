@@ -34,7 +34,7 @@ nav {
 }
 
 .container_nav {
-    width: 80vw;
+    width: 90vw;
     display: flex;
     flex-direction: row;
     justify-content: right;
@@ -46,9 +46,10 @@ nav {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     border-radius: 30px;
-    gap: 3vw;
-    padding-right: 10px;
+    gap: 1vw;
+    padding-right: 20px;
     background:linear-gradient(to bottom ,var(--color-sombra-1) 93%, var(--color-terciario));
 
 }
@@ -85,7 +86,7 @@ header .container {
 .container_nav li {
     color: white;
     text-decoration: none;
-    padding: 2px 4px;
+    padding: 0 9px;
 
 }
 .container_nav li:hover{
@@ -110,6 +111,5 @@ header .container {
 }
 
 .container_nav li:hover::after,.container_nav li:hover::before {
-    width: 100%;
-    
+    width: 100%;    
 }
