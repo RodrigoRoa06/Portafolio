@@ -1,6 +1,5 @@
 header {
     width: 100vw;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -12,11 +11,14 @@ header {
     flex-wrap: nowrap;
     padding: 10px;
 
+   
+
 }
 
 nav {
     width: 90vw;
     padding-left: 20px;
+
 
 }
 
@@ -114,4 +116,8 @@ header .container {
 
 .container_nav li:hover::after,.container_nav li:hover::before {
     width: 100%;    
+    box-shadow: 0 0 12px var(--color-terciario);
 }
+
+
+

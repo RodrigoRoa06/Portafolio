@@ -1,0 +1,40 @@
+@media (max-width: 780px){
+    :root{
+        --tamaño-fuente-1:30px
+        --tamaño-fuente-2:20px
+        --tamaño-fuente-3:12px
+        --tamaño-fuente-4:12px
+    }
+    header{
+        position: relative;
+        height: 10vh;
+
+    }
+    
+    .container_nav ul{
+        margin-top: 10vh;
+        flex-direction: column;
+        width: 100vw;
+    }
+    .logo{
+     display: none;
+    }
+    #home{
+        align-items: center;
+    }
+    .video_background{
+        height: 80%;
+    }
+    .containerc{
+        grid-template-columns: repeat(1,100%);
+    }
+    .links{
+        padding: 20px 0;
+        justify-content: space-around;
+    }
+    .am{
+        flex-direction: column;
+    }
+
+    
+}

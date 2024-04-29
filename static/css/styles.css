@@ -6,6 +6,7 @@
 @import url(skills.css);
 @import url(capacitacion.css);
 @import url(footer.css);
+@import url(responsive.css);
 
 :root {
   --color-primario: #00000E;
@@ -21,7 +22,7 @@
   --tamaño-fuente-4: 15px;
   --tamaño-fuente-5: 10px;
   --tamaño-slide: 120px;
-  --universal-gradient:linear-gradient(45deg, var(--color-terciario) 0%,var(--color-primario) 57%);
+  --universal-gradient:linear-gradient(to right, var(--color-terciario) 90%,var(--color-fuente-1));
 
 }
 /* Fuentes */
@@ -123,12 +124,13 @@ section {
 
 
 .btn {
+  
   font-size: 17px;
   background: transparent;
   border: none;
-  padding: 1em 1.5em;
   color: var(--color-primario);
   font-weight: 300;
+  padding: 10px 20px;
   text-transform: uppercase;
   position: relative;
   transition: 0.5s ease;
@@ -179,4 +181,6 @@ section {
 .btn:hover::after {
   height: 100%;
   transition-delay: 0.3s;
+  box-shadow: 0 0 12px var(--color-terciario);
 }
+
