@@ -6,11 +6,18 @@
         --tamaño-fuente-4:12px
     }
     header{
-        position: relative;
         height: 10vh;
+        width: 100vw;
+        padding: 0;
+        margin-top: 16px;
+    }
+    nav{
+        width: 100vw;
+    }
+    .container_nav{
+        width: 100vw;
 
     }
-    
     .container_nav ul{
         margin-top: 10vh;
         flex-direction: column;
@@ -34,6 +41,9 @@
     }
     .am{
         flex-direction: column;
+    }
+    .foto{
+        display: none;
     }
 
     
